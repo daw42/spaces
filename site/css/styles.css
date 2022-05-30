@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+	background-color: #000;
+	color: #fff;
+	overscroll-behavior: none;
+}
+
+.view-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Arial,sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.view-grid > div {
+    border: solid rgb(99, 99, 99) 1px;
+}
+
+.view-grid .view-name {
+    text-align: left;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 700;
+}
